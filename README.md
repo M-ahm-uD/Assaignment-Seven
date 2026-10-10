@@ -31,4 +31,4 @@ The main application code is located in the `app` directory.
 
 ## Deployment
 
-The project can  deployed on Vercel.
+The project can be deployed on Vercel.
