@@ -6,7 +6,7 @@ const categories = [
     color: "bg-red-50",
   },
   {
-    name: "Vegetables",
+    name: "Vegetable",
     description: "Explore everyday fresh vegetables.",
     emoji: "🥦",
     color: "bg-green-50",
