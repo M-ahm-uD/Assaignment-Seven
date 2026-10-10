@@ -43,7 +43,7 @@ const products = [
     id: 6,
     name: "Potatoes",
     category: "Vegetables",
-    price: 30,
+    price: 40,
     unit: "kg",
     emoji: "🥔",
   },
