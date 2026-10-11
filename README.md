@@ -72,5 +72,5 @@ This project can be deployed using [Vercel](https://vercel.com/).
 
 ## Links
 
-- **GitHub Repository:** YOUR_GITHUB_REPOSITORY_URL
-- **Live Demo:** YOUR_VERCEL_DEPLOYMENT_URL
+- **GitHub Repository:** MY_GITHUB_REPOSITORY_URL
+- **Live Demo:** MY_VERCEL_DEPLOYMENT_URL
