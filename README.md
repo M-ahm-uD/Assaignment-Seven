@@ -1,6 +1,15 @@
 # Bazar-Dor
 
-Bazar-Dor is a web application built with Next.js to help users explore market prices and product information.
+Bazar-Dor is a web application built with Next.js that helps users explore daily market prices, browse product categories, and view product information.
+
+## Features
+
+- Browse product categories.
+- Explore products and their prices.
+- Sort products by price from low to high or high to low.
+- View product details.
+- Responsive design for different screen sizes.
+- Loading and empty states for a better user experience.
 
 ## Technologies Used
 
@@ -11,13 +20,31 @@ Bazar-Dor is a web application built with Next.js to help users explore market p
 
 ## Getting Started
 
-First, install the dependencies:
+### Prerequisites
+
+Make sure Node.js and npm are installed on your computer.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Navigate to the project directory:
+
+```bash
+cd bazar-dor
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Run the development server:
+Start the development server:
 
 ```bash
 npm run dev
@@ -27,8 +54,23 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
-The main application code is located in the `app` directory.
+```text
+src/
+└── app/
+    ├── categories/
+    │   ├── page.tsx
+    │   └── [slug]/
+    │       └── page.tsx
+    ├── page.tsx
+    ├── layout.tsx
+    └── globals.css
+```
 
 ## Deployment
 
-The project can be deployed on Vercel.
+This project can be deployed using [Vercel](https://vercel.com/).
+
+## Links
+
+- **GitHub Repository:** YOUR_GITHUB_REPOSITORY_URL
+- **Live Demo:** YOUR_VERCEL_DEPLOYMENT_URL
